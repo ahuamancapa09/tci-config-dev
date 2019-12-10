@@ -16,7 +16,7 @@ lab02:
     host: localhost
     port: 6379
     enableSsl: false
-    password: password
+    password: "{cipher}AgADOJThd8EmItKnX8cjvOeHNOQn4BLJ6jbEzDRAhKtjR4cDclaX51yB1aQaHgBCIm9SGLe4GfMyL2IWhmZO/8UUVbyLrdICH+O7n8yvNi4wPKmaTBy8zQZU1vtbfb+ql+dtCwlDYRf3SOV6tlJxeQmA7oZ/tVZPVd4aWN6SXyBvKQf1dH2vH0SndwNnI1+8kAVnrPSpvczK8oLbnRAt5T4Wmo86XoHHARqZsA8QCjpXADAYrtFZ6KGdF3KW5hAppzAWUhZbXu41VkD5jKr9cedUu0WjeiJPXEy8XPE5aM1sXIrw/l2u6e8v/PiqJA9HvcI1MBo8Q+A//Y07qq/M7RyCg/5eFbi34vgmj2JbiyNL7t9YSqQd+h5w3528yYJ1NBw5nlZ9ruQ7bBU6xpLHtDpW/v4wUNYNfVdRwXeZbbfd9+2KBaHm2LckDOYzanwMTanoRrs6i+mdWkiZMpObojpZnKnJbxXuXV4++HT7gh8f5Wl3iQJNi6HpETkUbynoXqWS72ji6rtXoi0PVCYPE2AfiNvyzECTyZmKW4s8KgYA4DkMlCW6Wk+Pi5Bnyg4Kk3kbX0bJAggLY7tW1zFrz7NamyzJdaFlcyYYG81DsoVDQgXZILOoMy2cfjEXivmSZ+omGgPO7epcmE0dQIdeJl1Fii9CHT3W6rcZP+9t3wioMP0RsP7Ds70vx/bxt5O08r0GLR8UxIRA+YLnxgg52jZB"
   event:
     host: localhost
     port: 5672
