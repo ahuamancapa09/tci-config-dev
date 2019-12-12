@@ -14,7 +14,7 @@ spring:
     enabled: true
     url: jdbc:mysql://db:3306/db01?allowPublicKeyRetrieval=false&useSSL=true&requireSSL=true&serverTimezone=UTC&encrypt=true&autoReconnect=true
     user: root
-    password: password
+    password: {cipher}AgAwjz0RebR6JVQowJb6p53qW2QtktH388XhySWLR0raZUwkxzhx/T3VDNzi0js8Ksdfl/ph9dQ87ZHUMbGRG7nnz9vEFYuSogqNbh34VsjrolMwF1VgIF3AEssjGLHBik/3ZN1BBrTlfaiQ7U51g7tqQIvcS+MiGX6aCJ37uUUyZmecdWNxNcJ8mkBOfRgvESXisUA9onfggk0VoJGKVneTjcZppLbd3iim7MPpBUcsAtP79wT/dEQJu0VFMVc0yCp0ZFZ9pm+lv6Earu0WQ/ZSxOeg6xIH7boLh4NOmGhulGSgHvCB5cqoVFnSsZjUb4ntsYU5J+J+5ETAmZwoDNwEqZI/33zB3a1KEY3kzJI3Ssm5xDd0/biPzPgwxAYiLoNw6pA/7XFJRKM1Qok2VW8eHYpOo7CSSYz+/MUjxOD09Z4o4dhmonEU4tNYUb8galkv50jvK8hqTu8VXPsq/ENDJyTPokDBpsq8jiNlPB7r1n7CFmr/Hj2FW5+Hcuec/sBkurACpqw8Dlzr4LE0kpqXvszUxfoayELSQN/YQYdGboDyecsYoNOCXIiV9dmNBfb4ZxTI2Gqbj8wRKnioR0CMJbjJAyogS/gVqjVajotfCHUpEMUhnV6jd/d1d8k0eCes7AeO1xfFy/Cn/i7D2Ettf5ng8yoL9S9kg51KU/BDZvS4OOos8xu4N29FutkNDdaC6FFA3FQvio0tFHR5tddC
     locations: classpath:db/migration/lab01
     #schemas: dbo
     #flyway-schemas: flyway-schemas
@@ -25,11 +25,11 @@ lab01:
     host: bus
     port: 5672
     username: rabbitmq
-    password: rabbitmq
+    password: {cipher}AgAIfQiiBAFhnnT/j0UCus98NlXOT33+r7a2zYKjttg4gLulPchsxDSg06fiIEAUVniHihRfv0RLolCAN183aEB8Y2Imtb5PpQQSCdWER72CgwoUb0+lgMlKKr90WoAKcZd/5qrQso4W2E3ckboqO4jmZcwyukrGIjO8nf/o6COVzeJ6O4TDpUlaInOI598qxc148rok587nk9YOnGrqrtWe0nRmyF+L9xtzzhrICQFXl7TfnFnZQjpC0j6v49jJfKMHV3/PvPyz/SWqJf4jz9PG946/iMykL08tqPH0BbF/hwz0+Vj7Goykuwe00Z0dCNp2H9Htn/QGe3+3pwQ4AHIHgXv1FGiI6Ysis2b0olGOqFLtDJ/JrDaz03PYY63yLdhbgxUgAKRPyTwR1YBfYWohm0jasqIWD9NqNXqFFKiQRkc77cUVzDt4G4DfZDR6bpo2bUJQ+j9iKZL2IFheMNDg1bfGN7u2f56Sk+0pG8FRmbRnzwqnIDlRIzHYH6AsPAogyq97BsFLxP5DrjaKlMCdKrv/mixUb6gUX3SCxKrRrW2kHnYGJktmcWW7mlUeC6u3J+SnBJUyLfcczL6evEuljL2ZYWFuEEFPtrKztmg6e9FPilDuvU7Se0aQ1/mrRaoEFsWPuQysmrGM2lAsY6tVMlk+4AhXnf11mkRvimln4yvtmlOKvNSuHWin2Km/gllQ5y+94L9OxcUp/I/kz1Y3
   db01:
     url: jdbc:mysql://db:3306/db01?allowPublicKeyRetrieval=false&useSSL=true&requireSSL=true&serverTimezone=UTC&encrypt=true&autoReconnect=true
     username: lab01user
-    password: lab01userpwd
+    password: {cipher}AgCBUEICRlhYoGyuSCf2mxlGCEOnAMnAQ1y/q/h68wNbIInBYi0ip5JAFkozS2JLcY91rRofYYvHB4khA0mK4ekwGoU3hNZBJ79B4Cenv7qXyQ2NQ7n4HI0HgwE+SFNTnA705bDyvpsLFVoRj8RtylP2lExi/jIIxQC0eCbxEjW7ZtOWoi+GFYWdPv/mkSzRaYBYfa9ZlUxS+S2NZ+o8izMQpnpWR3nb4V3DhTIB/tmh1dbGZei0tskbJ+s2emjSMVwmw1TfQbi9ncZoSKG6KNn3t35JZq1rv8/Y1ml8K0tnQJnP+5ieXajKjHHhdmExtUx8NABto4xrCMks+S6ZIU2BNWXpGnsEcTuYOLfBNKynTTafnKuSZ1uGZn9NJbiupFIIwqCAV0cyQRSQA6tGfd0RYat1xIf5ay10f7iFdQ0XBwotyIq6O22vJpKOnjEhtXCmcXxmzC+nK0u2D/RHwyPHjPuX0LWBd96R3cInotJINTPVGx7FkX4hxn5Glq5cWmIhtSyu2UtES3MAWRdpgUZd/ORtEaIJjcfffoR/W6laUDFfa+Ut5tvzTDMjfPqP2HhR5hOKZjfn49TknqESkDs4Fl6fsN1GNIAG5L42GRvpv7KypP1YdOoR6H/1e3pEPwxdpMAVo4hz4mqwnVZM++yj0bZ+PrNKg8WzUVjStmMQZo+RDpTZ9a69+Q4Bybd0K9J3p6l83AczwUkiSjDCkOVy
     driverClassName: com.mysql.cj.jdbc.Driver
 
   features:
