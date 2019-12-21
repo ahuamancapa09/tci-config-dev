@@ -1,8 +1,8 @@
 logging.level:
   root: INFO
-  com.example.lab01.repository: ERROR
-  org.springframework.jdbc.core: ERROR
-  org.springframework.jdbc.core.StatementCreatorUtils: ERROR
+  com.example.lab01.repository: INFO
+  org.springframework.jdbc.core: INFO
+  org.springframework.jdbc.core.StatementCreatorUtils: INFO
   #org.springframework.web: INFO
   #com.microsoft: ERROR
 
