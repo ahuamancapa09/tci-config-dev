@@ -1,5 +1,5 @@
 logging.level:
-  root: INFO
+  root: ERROR
   com.example.lab01.repository: DEBUG
   org.springframework.jdbc.core: DEBUG
   org.springframework.jdbc.core.StatementCreatorUtils: DEBUG
